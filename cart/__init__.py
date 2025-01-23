@@ -28,10 +28,7 @@ def get_cart(username: str) -> list:
         for content in evaluated_contents:
             items.append(content)
     
-    # i2 = []
-    # for i in items:
-    #     temp_product = products.get_product(i)
-    #     i2.append(temp_product)
+
     return items
 
     
